@@ -20,13 +20,13 @@
       ],
       "settings": {
         "java.project.sourcePaths": [
-          "src",
-          "tests"
+          "java/Árvore Genealógica/src",
+          "java/Árvore Genealógica/tests"
         ],
-        "java.project.outputPath": "out"
+        "java.project.outputPath": "java/Árvore Genealógica/out"
       }
     }
   },
-  "postCreateCommand": "bash scripts/validar.sh",
+  "postCreateCommand": "bash \"java/Árvore Genealógica/scripts/validar.sh\"",
   "remoteUser": "vscode"
 }

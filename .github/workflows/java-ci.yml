@@ -5,6 +5,9 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: java/Árvore Genealógica
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
@@ -23,4 +26,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: arvore-genealogica-java21
-          path: EDD-Arvore-Genealogica.jar
+          path: java/Árvore Genealógica/EDD-Arvore-Genealogica.jar

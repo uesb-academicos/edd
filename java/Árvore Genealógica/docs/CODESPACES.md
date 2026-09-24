@@ -2,6 +2,12 @@
 
 A configuração usa Java 21 e desktop remoto para a interface Swing. Ao criar o ambiente, o script `scripts/validar.sh` compila o projeto, executa os testes e gera o JAR.
 
+Antes dos comandos, a partir da raiz do repositório, execute:
+
+```sh
+cd "java/Árvore Genealógica"
+```
+
 ## Console
 
 ```sh
